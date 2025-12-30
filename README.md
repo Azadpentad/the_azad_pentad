@@ -5,3 +5,4 @@ The Living Manifold Hypothesis (Ref #17680744)
 ​Biological Independence: Life and Mind are fundamental constants of the Pentad and exist independently of any biological medium or physical carrier.
 ​Interaction: What we perceive as "physical laws" are the habitual behaviors of this Living Manifold as it maintains the state of Absolute Persistence (\Psi).
 ​Unity: Every localized point in Space (S) and Mass (M) is an integrated part of the total Living System.
+
