@@ -53,4 +53,30 @@ def simulate_azad_redshift():
 if __name__ == "__main__":
     simulate_azad_redshift()
 
+import numpy as np
+import matplotlib.pyplot as plt
+
+def simulate_azad_redshift():
+    # Theta represents the 5th dimensional curvature angle
+    theta = np.linspace(0, np.pi/3, 100) 
+    
+    # Linearity Law: L = sec(theta)
+    L = 1 / np.cos(theta)
+    
+    # Conventional Redshift (z) as a function of the Bending Ruler Effect
+    z = L - 1 
+
+    plt.figure(figsize=(10, 6))
+    plt.plot(theta, z, label='Geometric Redshift (Azad Pentad)', color='blue', linewidth=2)
+    plt.title('The Bending Ruler Effect: Geometric Redshift in a Stationary 5D Manifold')
+    plt.xlabel('5th Dimension Curvature Angle (Theta)')
+    plt.ylabel('Observed Redshift (z)')
+    plt.grid(True)
+    plt.legend()
+    plt.show()
+
+if __name__ == "__main__":
+    simulate_azad_redshift()
+
+
 
